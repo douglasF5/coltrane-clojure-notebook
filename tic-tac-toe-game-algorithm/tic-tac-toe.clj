@@ -17,7 +17,7 @@
 
 
 ;generate 'triples' (rows, columns, diagonals) out of a board
-defn(generate-triples [board]
+(defn generate-triples [board]
       (concat
           (partition-all 3 board)                           ;get rows
           (list
