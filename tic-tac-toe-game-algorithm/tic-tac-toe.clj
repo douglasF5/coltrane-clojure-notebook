@@ -83,3 +83,5 @@
                         (recur
                             (take-turn (first player-sequence) board)
                             (rest player-sequence))))))
+
+(play-game)
